@@ -1,11 +1,12 @@
 !!!
-%html
+%html{lang: 'en'}
   = render 'layouts/head'
-  %body.layout
-    .layout--header
-      = render "layouts/header"
-    %div
-      = yield
+  %body
+    .container
+      .row
+        = render "layouts/header"
+
+        %div
+          = yield
 
     = render 'layouts/footer'
-

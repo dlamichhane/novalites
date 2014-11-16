@@ -1,3 +1,83 @@
-// Place all the styles related to the landing_page controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url(http://fonts.googleapis.com/css?family=Quattrocento:700|Open+Sans);
+/*#0c304a #2b79a1 #f3f4f1 #85a71e #bfd841 */
+
+/*.font1 {
+	font-family: 'Quattrocento', serif;
+	font-family: 'Open Sans', sans-serif;
+}*/
+
+body {
+	background-color: #f3f4f1;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-family: 'Quattrocento', serif;
+}
+
+.navbar {
+	border-bottom: 6px solid #bfd841;
+}
+
+.event_header {
+	padding-top: 125px;
+	text-align: center;
+	height: 668px;
+}
+
+.event_header .img-responsive {
+	margin: 0 auto;
+}
+
+.event_header h1 {
+		font-size: 54px;
+		margin: 24px;
+}
+
+.event_header p {
+		font-size: 21px;
+		margin: 0 auto;
+		width: 500px;
+}
+
+.twitter {
+	color: #2b79a1;
+}
+
+.content {
+	border-top: 6px solid #bfd841;
+	background: #404040;
+	color: wheat;
+}
+
+.pp {
+	border-top: 6px solid #bfd841;
+	background: #f3f4f1;
+	height: 650px;
+}
+
+/*footer {
+	position: absolute;
+  	bottom: 0;
+}*/
+/*.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+*/
+/*.panel-default {
+    border-color: #3F2B22;
+}
+.panel-default > .panel-heading {
+    background-color: #cdae51;
+    border-color: #3F2B22;
+    color: #fff;
+}
+
+.glyphicon-align-justify:before {
+	color: #fff;
+}*/
