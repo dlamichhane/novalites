@@ -31,10 +31,11 @@ group :assets do
   gem 'haml-rails'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer', :platforms => :ruby
-  gem "less-rails"
   gem 'uglifier', '>= 1.0.3'
-  gem 'twitter-bootstrap-rails'
+  gem 'bootstrap-sass', '~> 3.3.1.0'
+  gem 'autoprefixer-rails'
 end
+
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password

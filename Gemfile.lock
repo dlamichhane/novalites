@@ -30,6 +30,8 @@ GEM
       multi_json (~> 1.0)
     andand (1.3.3)
     arel (3.0.3)
+    autoprefixer-rails (4.0.0.1)
+      execjs
     bcrypt (3.1.9)
     better_errors (2.0.0)
       coderay (>= 1.0.0)
@@ -37,6 +39,8 @@ GEM
       rack (>= 0.9.0)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    bootstrap-sass (3.3.1.0)
+      sass (~> 3.2)
     builder (3.0.4)
     coderay (1.1.0)
     coffee-rails (3.2.2)
@@ -46,7 +50,6 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.8.0)
-    commonjs (0.2.7)
     daemons (1.1.9)
     debug_inspector (0.0.2)
     devise (3.4.1)
@@ -83,11 +86,6 @@ GEM
     jquery-rails-cdn (1.0.3)
       jquery-rails
     json (1.8.1)
-    less (2.6.0)
-      commonjs (~> 0.2.7)
-    less-rails (2.6.0)
-      actionpack (>= 3.1)
-      less (~> 2.6.0)
     libv8 (3.16.14.7)
     mail (2.5.4)
       mime-types (~> 1.16)
@@ -148,11 +146,6 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
-    twitter-bootstrap-rails (2.2.8)
-      actionpack (>= 3.1)
-      execjs
-      rails (>= 3.1)
-      railties (>= 3.1)
     tzinfo (0.3.42)
     uglifier (2.5.3)
       execjs (>= 0.3.0)
@@ -165,19 +158,19 @@ PLATFORMS
 
 DEPENDENCIES
   andand
+  autoprefixer-rails
   better_errors
   binding_of_caller (~> 0.7.2)
+  bootstrap-sass (~> 3.3.1.0)
   coffee-rails (~> 3.2.1)
   devise
   haml-rails
   inherited_resources
   jquery-rails
   jquery-rails-cdn
-  less-rails
   mysql2
   rails (= 3.2.17)
   sass-rails (~> 3.2.3)
   therubyracer
   thin
-  twitter-bootstrap-rails
   uglifier (>= 1.0.3)
