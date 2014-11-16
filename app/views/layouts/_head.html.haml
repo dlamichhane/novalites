@@ -1,0 +1,8 @@
+%head
+  %title Nova-lites
+  %meta{charset: "utf-8"}
+  - if Rails.env.production?
+    %meta{name: "robots", content: "noindex"}
+
+  = stylesheet_link_tag "application"
+  = javascript_include_tag "application"

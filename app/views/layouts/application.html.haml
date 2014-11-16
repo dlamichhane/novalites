@@ -1,0 +1,11 @@
+!!!
+%html
+  = render 'layouts/head'
+  %body.layout
+    .layout--header
+      = render "layouts/header"
+    %div
+      = yield
+
+    = render 'layouts/footer'
+
