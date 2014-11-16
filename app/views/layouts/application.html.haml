@@ -2,11 +2,11 @@
 %html{lang: 'en'}
   = render 'layouts/head'
   %body
-    .container
-      .row
-        = render "layouts/header"
+    = render "layouts/about"
+    = render "layouts/flavors"
+    = render "layouts/legal"
+    = render "layouts/contact"
 
-        %div
-          = yield
+    = yield
 
     = render 'layouts/footer'

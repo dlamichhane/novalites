@@ -1,0 +1,20 @@
+.content-white#about
+  .container
+    .row
+      %header
+        = render "layouts/header"
+
+        .col-lg-12.col-sm-12.event_header
+          = image_tag "logo_eventcanister.png", alt: "Event Canister", class: "img-responsive"
+          %h1 Sweet Leaf
+          %p.text-warning
+            Hey buddy, are you sick of marketing for your services/products in
+            = succeed "?" do
+              %span.twitter Twitter
+          %br
+            %p
+              Lets talk
+            #form_survey{:style => "display:none;"}
+              %button.btn.btn-primary.btn-lg{:type => "button"}
+                %span.glyphicon.glyphicon-hand-right
+                Get Registered
