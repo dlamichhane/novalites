@@ -5,10 +5,14 @@
       %span.icon-bar
       %span.icon-bar
       %span.icon-bar
+    %a.navbar-brand{:href => "#about", :rel => "home", :title => "Sweet Leaf"}
+      = image_tag "sweet_leaf_logo_3.png", alt: "Sweet Leaf", class: "img-responsive", :style => "max-width:62px; margin-top: 5px;"
   #menu_item.collapse.navbar-collapse
     %ul.nav.navbar-nav.pull-right
       %li.active
         %a{href: "#about"} About us
+      %li
+        %a{href:"#how_to_obtain"} How to obtain
       %li
         %a{href:"#flavors"} Flavors
       %li
