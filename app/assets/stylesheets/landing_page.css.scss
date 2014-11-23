@@ -24,6 +24,10 @@ h1, h2, h3 {
   background: image-url("section_legal.jpg") no-repeat center center fixed;
 }
 
+.section-contact {
+  background: image-url("section_contact.jpg") no-repeat center center fixed;
+}
+
 .sweet_header {
   padding-top: 50px;
   text-align: center;
@@ -124,4 +128,18 @@ h1, h2, h3 {
 
 .flavor-nav div.third:before {
   background-color: #ffec89;
+}
+
+.thumbnail-custom {
+  background-color: rgba(0,0,0,0.3) !important;
+}
+
+#legal {
+  padding-top: 100px;
+  height: 700px;
+}
+
+#contact {
+  padding-top: 100px;
+  height: 600px;
 }

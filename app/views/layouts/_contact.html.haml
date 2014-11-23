@@ -1,31 +1,32 @@
-.content-grey#contact
+.content-white#contact
   .container
     .row
-      %article.col-md-8
+      %article.col-md-7
         %h1
-          %span.glyphicon.glyphicon-pushpin
-          The Brief
-        %p
-          Event Canister is organising a Hands-On Twitter Training Boot Camp for marketing assistants on 28 March 2014 at Sokos Hotel Presidentti in Helsinki. The event is especially designed to teach you how to use Twitter effectively for marketing – and how not to use Twitter.
-        %p
-          Twitter is where business professionals share news and information, build and strengthen their professional connections, generate leads, develop new business, advance their careers and get hired. Twitter is one of the fastest growing social media platforms in the world and the amount of users is rising at an unmatched pace every day. Harnessing the power of Twitter to build your brand awareness, drive sales and promote your company is an opportunity you definitely should not miss. In this mission, our Hands-On Twitter Training Boot Camp comes in handy – with this unmissable event in May you'll get all the info you need to really boost your business in Twitter.
-        %p
-          During this one-day training you'll get to follow step-by-step exercises and develop the applied social media skills you need to use social media for business. We'll also provide you with an arsenal of supplemental materials including a Pro-tips for Twitter Marketing guide book and a fancy t-shirt. You'll also get to meet other marketing professionals and connect with them – maybe even on Twitter. Accelerate your professional skill set in this Hands-On Twitter Training Boot Camp and become a true Twitter guru!
-        %p
-          Our top-notch speakers will share their insights and best tricks to help you to understand the essence of Twitter and how to use it to you advantage. With their indisputable expertise and know-how, they will teach you all you need to know about using Facebook for marketing and how to get it to the next level. Our opening keynote speaker Leila Tammi is a senior vice president at Luau Cosmetics and she is the woman behind Luau's huge success through social media. Our other speakers include Mark Young from Young & Young Law, Harri Sailo from Pokat Oy and Meri-Anna Hulmalainen, the former CEO of Event Canister.
-      %aside.col-md-4
-        %p
-          %h3 Training agenda:
-          %br 8:00–8:30 Breakfast
-          %br 8:30–9:00 Opening keynote
-          %br 9:00–10:15 Twitter Etiquette: The Ultimate Dos and Don'ts About Using Twitter for Business
-          %br 10:15–10:45 Coffee break
-          %br 10:40–12:00 Tweet in Style: How to Bring Your Company Brand into Your Tweets Without Sounding a Buffoon
-          %br 12:00–13:00 Lunch break
-          %br 13:00–14:15 Lure Them in and Make Them Stay: Establishing and Keeping Followers
-          %br 14:15–14:45 Coffee break
-          %br 14:45–16:00 Be the Best: The Top 10 Ways to Beat Your Competitors on Twitter
-          %br 16:00–16:30 Closing keynote
-          %br 16:30– Friday night drinks
-      / </div>
-  / main content
+          %span.glyphicon.glyphicon-inbox
+          Feedback / Comment us
+
+        %form{:role => "form"}
+          .form-group
+            %label{:for => "username"} Full Name
+            %input#username.form-control{:placeholder => "Enter your full name", :type => "text"}
+          .form-group
+            %label{:for => "email"} Email address
+            %input#email.form-control{:placeholder => "Enter your email", :type => "email"}
+          .form-group
+            %label{:for => "description"} Description
+            %textarea#description.form-control{:placeholder => "Tell us something...", :rows => "5"}
+
+          %button.btn.btn-primary{:type => "submit"} Submit
+
+      %aside.col-md-5
+        .jumbotron.jumbotron-header.jumbotron-contact
+          %h1
+            %span.glyphicon.glyphicon-earphone
+            Contact
+          %p Your Information Inc.
+          %br
+          .flavor-nav
+            .first Phone: xxxxxxxxxx
+            .second Email: XXXXXXXXX
+            .third Encrypted mail: XXXXXXXX

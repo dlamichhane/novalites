@@ -20,17 +20,17 @@
             %a.btn.btn-primary.btn-lg.text-uppercase{:href => "#", :role => "button"} Purchase now
 
       .col-md-8
-        .jumbotron.jumbotron-header
-          %h1
-            %span.glyphicon.glyphicon-info-sign
-
-            Flavors
-
-
-          %p
-          Product will be sent discretely to any country, and payment can be made through this website. These can be sent to a home or business address via tracked mail.
-          %br
-          %br
-          %p
-            %a.btn.btn-primary.btn-lg.text-uppercase{:href => "#", :role => "button"} Purchase now
+        .row
+          .col-md-2
+          .col-md-4
+            %a.thumbnail.thumbnail-custom{:href => "#"}
+              = image_tag "http://placehold.it/170x100&amp;text=one", alt: "Sweet Leaf", :style => "height:200px;"
+          .col-md-4
+            %a.thumbnail.thumbnail-custom{:href => "#"}
+              = image_tag "6.png", alt: "Sweet Leaf", class: "img-responsive", :style => "height:200px;"
+        .row
+          .col-md-4
+          .col-md-4
+            %a.thumbnail.thumbnail-custom{:href => "#"}
+              = image_tag "http://placehold.it/170x100&amp;text=one", alt: "Sweet Leaf", class: "img-responsive", :style => "height:200px;"
 
