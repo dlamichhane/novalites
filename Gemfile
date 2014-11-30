@@ -9,8 +9,12 @@ gem 'mysql2'
 
 
 # Authentication & Authorization
-gem 'devise'
+# gem 'devise'
 # gem 'consul'
+gem 'jquery-rails', '~>2.2.1'
+gem 'nokogiri', '~>1.5.9'
+gem 'spree', '~> 2.0.0'
+gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-0-stable'
 
 # Utility
 gem 'andand'
@@ -21,6 +25,7 @@ group :development do
   gem 'thin'
   gem 'better_errors'
   gem 'binding_of_caller', '~> 0.7.2'
+  gem 'capistrano', '<3'
 end
 
 # Gems used only for assets and not required
@@ -35,8 +40,6 @@ group :assets do
   gem 'bootstrap-sass', '~> 3.3.1.0'
   gem 'autoprefixer-rails'
 end
-
-gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
