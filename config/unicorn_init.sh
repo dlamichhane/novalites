@@ -10,6 +10,7 @@
 ### END INIT INFO
 set -e
 
+
 # Feel free to change any of the following variables for your app:
 TIMEOUT=${TIMEOUT-60}
 APP_ROOT=/home/deployer/apps/novalites/current
