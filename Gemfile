@@ -26,6 +26,7 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller', '~> 0.7.2'
   gem 'capistrano', '<3'
+  gem 'net-ssh', '~>2.7.0'
 end
 
 # Gems used only for assets and not required
